@@ -40,7 +40,7 @@ int main()
 	{
 		bool allocated=false;
 		for(i=0;i<p;i++)
-		{	if(!finish[i] && check[i])
+		{	if(!finish[i] && check(i))
 			{
 				for(k=0;k<r;k++)
 					work[k]=work[k]+alloc[i][k];
