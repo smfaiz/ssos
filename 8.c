@@ -16,7 +16,7 @@ int main()
 {	printf("\nEnter the number of process and resources \n");
 	scanf("%d%d",&p,&r);
 	int seq[p];
-	for(i=0;i<p:i++)
+	for(i=0;i<p;i++)
 		for(j=0;j<r;j++)
 			scanf("%d",&alloc[i][j]);
 	printf("\nEnter the maximum values \n");
