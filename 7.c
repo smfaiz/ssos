@@ -65,7 +65,7 @@ void scheduler(Job job[],int n,int q,int c)
 	printf("\nAvg Turn Around Time =%f\nAvg Waiting Time=%f\n",tat_sum/n,wt_sum/n);
 }
 
-int main)
+int main()
 {
 	Job job[100];
 	int n,q,c;
@@ -77,7 +77,7 @@ int main)
 		printf("J%d:",i+1);
 		scanf("%d%d",&job[i].arrival,&job[i].burst);
 	}
-	printf("\n1.Round Robin\n2.SJF\n);
+	printf("\n1.Round Robin\n2.SJF\n");
 	scanf("%d",&c);
 	switch(c)
 	{
