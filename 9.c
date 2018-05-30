@@ -7,7 +7,7 @@ int main()
 {
 		int ch,YN=1,i,l,f;
 		char F[10],s[25];
-		printf("\n\n\tEnter the no ofempty frames: "); 
+		printf("\n\n\tEnter the no of empty frames: "); 
 		scanf("%d",&f);
 		printf("\n\n\tEnter the length of the string: ");
 		scanf("%d",&l);
